@@ -8,6 +8,8 @@ public class Program
 
         Console.WriteLine("Goodbye World!");
 
+        int[] inputArray = { 1, 2, 3, 4, 5, 6 };
+        Console.WriteLine(average(inputArray));
     }
 
     public static float average(int[] intArray)
