@@ -16,14 +16,14 @@ public class Program
 
     public static float average(int[] intArray)
     {
-        float sum = 0.0f, average = 0.0f;
+        float sum = 0.0f, averageResult = 0.0f;
         foreach(int i in intArray)
         {
             sum += i;
         }
-        average = sum / intArray.Length;
+        averageResult = sum / intArray.Length;
 
-        return average;
+        return averageResult;
     }
 
     public static float max(int[] intArray)
